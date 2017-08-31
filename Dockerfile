@@ -6,5 +6,5 @@ RUN apk add --update \
     python py-pip git
 
 RUN pip install --upgrade awscli
-RUN npm i bower gulp-cli firebase-tools workbox-cli -g --unsafe-perm
+RUN npm i bower gulp-cli firebase-tools workbox-cli @angular/cli -g --unsafe-perm
 RUN mkdir /workdir && cd /workdir
